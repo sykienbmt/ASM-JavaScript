@@ -1,0 +1,75 @@
+@font-face{
+  src: url(/font/Lato-Medium_0.ttf);
+  font-family: Lato2;
+}
+/* ---- */
+.menu-bar .fa-cart-arrow-down{
+    position: relative;
+  }
+  .menu-bar .soLuong{
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    bottom: -10px;
+    right: -5px;
+    background-color: #393D72;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  
+  /* ----- */
+  #gioHangMini{
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    color: #393D72;
+    padding: 7px;
+    border-radius: 10px;
+    right: 5px;
+    top:80px;
+    border: 2px solid #DE0570;
+    box-shadow: 1px 2px 10px rgb(187, 186, 186);
+  }
+  #gioHangMini .item-gio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  #gioHangMini .item-gio img{
+    width: 50px;
+    height: 50px;
+    flex:1;
+  }
+  #gioHangMini .item-gio p{
+    margin: auto;
+  }
+  #gioHangMini .item-gio .ten-item{
+    flex:5;
+    margin-left: 15px;
+    line-height: 18px;
+    font-family: Lato2;
+    font-size: 14px;
+  }
+  #gioHangMini .item-gio .gia-item{
+    flex:2;
+    text-align: right;
+  }
+  #gioHangMini .fa-sort-up{
+    position: absolute;
+    color: #DE0570;
+    font-size: 30px;
+    top:-15px;
+    right:5px;
+  }
+  .gio-hang-hover:hover #gioHangMini{
+    display: block;
+  }
+  #gioHangMini{
+    display: none;
+  }

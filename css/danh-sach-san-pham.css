@@ -1,0 +1,368 @@
+@font-face{
+  src: url(/font/Lato-Medium_0.ttf);
+  font-family: Lato2;
+}
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+  margin-top: 120px;
+}
+.slideshow-container img{
+  width: 1200px;
+  height: 290px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* The dots/bullets/indicators */
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/* danh -sach san pham */
+
+
+
+
+
+/* right */
+.danh-sach{
+  width: 1230px;
+  margin: auto;
+  position: relative;
+}
+.danh-sach-container{
+  padding: 0 15px 30px 15px;
+  display: flex;
+}
+.sap-xep{
+  width: 20%;
+}
+#hien-thi-sach{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.books-container{
+  width: 25%;
+  padding: 10px;
+}
+
+.hinhAnh img{
+  width: 150px;
+  height: 150px;
+}
+
+.danh-sach .books-items {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+.danh-sach .books-items:hover{
+  box-shadow: 2px 2px 6px #393D72;
+  transition: 1s;
+}
+.danh-sach .books-items h1{
+  font-family: Balooo;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 50px;
+  color: #393D72;
+}
+.danh-sach .books-items .gia span{
+  font-family: Lato2;
+  font-size: 14px;
+}
+.danh-sach .books-items .gia .gia-goc{
+  text-decoration: line-through;
+  font-size: 13px;
+}
+.danh-sach .books-items .gia .gia-ban{
+  color: #DE0570;
+}
+.danh-sach .books-items button{
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: #393D72;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.danh-sach .books-items button:hover{
+  background-color: #DE0570;
+  color: aliceblue;
+}
+.danh-sach .books-items .Giam-Gia-background{
+  font-family: Lato2;
+  background-color: #DE0570;
+  color: white;
+  line-height: 22px;
+  width: 23%;
+  border-radius: 35%;
+  position: absolute;
+  right: 5px;
+  top:5px;
+}
+
+/* left */
+.danh-sach .sap-xep{
+  padding: 15px 10px;
+  
+}
+.sap-xep-container{
+  border: 1px solid #393D72;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #505375;
+}
+.danh-sach .sap-xep .sap-xep-title{
+  width: 100%;
+  text-align: center;
+  padding: 10px 15px;
+}
+.danh-sach .sap-xep .sap-xep-title h2{
+  font-family: Balooo;
+  font-size: 20px;
+  color: #393D72;
+}
+.danh-sach .sap-xep .danh-sach-xep{
+  padding: 0px 15px 10px 15px;
+}
+.danh-sach .sap-xep .danh-sach-xep li{
+  padding: 10px 0;
+  margin-top: 2px;
+}
+
+.danh-sach .sap-xep .danh-sach-xep input{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #393D72;
+  border-radius: 20px;
+  padding-right: 35px;
+}
+.danh-sach .sap-xep .danh-sach-xep .sap-xep-item{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.danh-sach .sap-xep .danh-sach-xep .sap-xep-item:hover{
+  background-color: #f778b7;
+  color: white;
+}
+.danh-sach .sap-xep .danh-sach-xep .sap-xep-item input{
+  padding: 5px 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.danh-sach .sap-xep .danh-sach-xep .sap-xep-item1{
+  padding-left: 15px;
+}
+.danh-sach .sap-xep .danh-sach-xep .sap-xep-item1:hover{
+  background-color: white;
+  color: #393D72;
+  cursor: auto;
+}
+.danh-sach-xep li button{
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  width: 50%;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #393D72;
+  color: white;
+}
+.danh-sach-xep li button:hover{
+  background-color: #DE0570;
+}
+.danh-sach .sap-xep .danh-sach-xep span{
+  font-family: Lato2;
+  font-size: 14px;
+  padding-left: 25px;
+}
+.danh-sach .sap-xep .danh-sach-xep .tim-kiem-sach{
+  position: relative;
+}
+
+.danh-sach .sap-xep .danh-sach-xep i{
+  font-size: 20px;
+  color: #393D72;
+  position: absolute;
+  top:19px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+
+
+#dat-hang-thanh-cong{
+  position: fixed;
+  z-index: 9999;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #ec529f;
+  color: white;
+  text-align: center;
+  bottom: 20px;
+  right:40px;
+  opacity: .7;
+}
+#dat-hang-thanh-cong h1{
+  font-family: Lato2;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+  line-height: 50px;
+}
+
+.menu-mua-sach .menu-mua-sach1{
+  color: #DE0570;
+}
+
+
+
+/* ---- */
+.menu-bar .fa-cart-arrow-down{
+  position: relative;
+}
+.menu-bar .soLuong{
+  position: absolute;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  bottom: -10px;
+  right: -5px;
+  background-color: #393D72;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+
+/* ----- */
+#gioHangMini{
+  position: absolute;
+  width: 400px;
+  background-color: white;
+  color: #393D72;
+  padding: 7px;
+  border-radius: 10px;
+  right: 5px;
+  top:80px;
+  border: 2px solid #DE0570;
+  box-shadow: 1px 2px 10px rgb(187, 186, 186);
+}
+#gioHangMini .item-gio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#gioHangMini .item-gio img{
+  width: 50px;
+  height: 50px;
+  flex:1;
+}
+#gioHangMini .item-gio p{
+  margin: auto;
+}
+#gioHangMini .item-gio .ten-item{
+  flex:5;
+  margin-left: 15px;
+  line-height: 18px;
+}
+#gioHangMini .item-gio .gia-item{
+  flex:2;
+  text-align: right;
+}
+#gioHangMini .fa-sort-up{
+  position: absolute;
+  color: #DE0570;
+  font-size: 30px;
+  top:-15px;
+  right:5px;
+}
+.gio-hang-hover:hover #gioHangMini{
+  display: block;
+}
+#gioHangMini{
+  display: none;
+}

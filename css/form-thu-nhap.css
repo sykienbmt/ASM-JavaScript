@@ -1,0 +1,194 @@
+@font-face{
+    src: url(/font/Lato-Medium_0.ttf);
+    font-family: Lato2;
+}
+input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#gio-hang {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
+
+.item-gio-hang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-gio-hang .hinh-anh img {
+    width: 60px;
+    height: 60px;
+}
+.item-gio-hang .hinh-anh{
+    width: 60px;
+}
+.item-gio-hang .hinh-anh,
+.so-luong,
+.tong-tien,
+.hanh-dong {
+    flex: 1;
+    margin-left: 20px;
+}
+.item-gio-hang input{
+    width: 100%;
+}
+.item-gio-hang .gia {
+    flex: 2;
+}
+
+.item-gio-hang .ten-san-pham {
+    flex: 3;
+}
+
+.item-gio-hang .gia .gia-goc {
+    font-size: 12px;
+    text-decoration: line-through;
+    font-family: Lato2;
+    display: block;
+}
+
+.item-gio-hang .gia .gia-ban {
+    color: rgb(207, 137, 6);
+    display: block;
+}
+
+.item-gio-hang .hanh-dong i:hover {
+    color: #DE0570;
+}
+.tieu-de{
+    font-family: Balooo;
+    font-size: 20px;
+    color: #DE0570;
+    margin-bottom: 20px;
+}
+#gio-hang .color1{
+    color: #393D72;
+    font-family: Balooo;
+}
+#gio-hang .item-gio-hang-tieu-de{
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+#gio-hang .tong-tien{
+    text-align: right;
+}
+/* #gio-hang .gia-ban{
+    text-align: right;
+} */
+.hanh-dong{
+    text-align: center;
+}
+.hanh-dong i{
+    font-size: 20px;
+}
+#thong-tin-khach-hang{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px rgba(126, 125, 125, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.gia-ban{
+    float: right;
+    margin-right: 80px;
+}
+#gio-hang .ten-san-pham,.gia-goc,.gia-ban,.so-luong,.tong-tien{
+    font-family: Lato2;
+}
+label,input,button{
+    display: block;
+    width: 100%;
+}
+
+input,button{
+    padding: 10px 20px;
+}
+
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Lato2;
+    font-size: 14px;
+}
+button{
+    margin-top: 20px;
+    background-color: #393D72;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #DE0570;
+}
+.error{
+    height: 12px;
+    font-style: italic;
+    font-size: 12px;
+    color: red;
+}
+.buy-title{
+    margin-bottom:20px;
+    text-align: center;
+    font-family: Balooo;
+    font-size: 25px;
+    color: #393D72;
+}
+
+.gio-hang-trong{
+    width: 70%;
+    font-family: Balooo;
+    color: #DE0570;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.gio-hang-trong i{
+    margin-top: 20px;
+    font-size: 50px;
+    color: #393D72;
+}
+
+.gio-hang-trong i:hover{
+    color: #DE0570;
+}
+
+
+
+
+.menu-shop .menu-shop1 i{
+    color: #DE0570;
+}
+
+
+/* ---- */
+.menu-bar .fa-cart-arrow-down{
+    position: relative;
+  }
+  .menu-bar .soLuong{
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    bottom: -10px;
+    right: -5px;
+    background-color: #393D72;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  /*  */

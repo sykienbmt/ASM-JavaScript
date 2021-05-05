@@ -1,0 +1,156 @@
+
+.about-fill ,.menu-bar-1,.introduce,.introduce-up,.introduce-bottom, .study-content-fill, .review-fill, .content-bottom-review, .picture-content-center, .picture-content-bottom, .news-mask, .featured-fill, .international-fill, .international-bottom-pd, .footer  {
+    max-width: 1000px;
+}
+.study-content{
+    width: 100%;
+}
+/* ---------menu----------- */
+.menu-bar{
+    height: 100px;
+}
+.menu-bar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+.menu-bar .menu-bar-lv1-name{
+    width:none;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.menu-bar .menu-bar-lv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+/* --------about-------- */
+.about{
+    margin-top: 100px;
+}
+
+
+
+
+
+/* --------introduce-------- */
+
+.introduce-bottom{
+    padding: 0 40px;
+}
+.introduce-bottom-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.introduce-bottom-content h1,
+.introduce-bottom-content p{
+    text-align: center;
+}
+.introduce-bottom-img{
+    width: 50%;
+    float: none;
+    margin: auto;
+}
+.introduce-bottom-title{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* --------- */
+.image-absolute-icon{
+    position: relative;
+    width: 120px;
+    height: 100%;
+    margin: auto;
+}
+.introduce-up-icon{
+    position: absolute;
+    z-index: 4;
+    top:16%;
+    right: 25%;
+    color: white;
+}
+.introduce-bottom-content-img-location1{
+    top: 0%;
+    right:15%;
+}
+.introduce-bottom-content-img-location2{
+    bottom: 48%;
+    left: 10%;
+}
+
+
+/* ---------content------- */
+
+.content-bottom-review-in-fill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-bottom-review-desc-fill{
+    width: 85%;
+}
+.content-bottom-review-desc{
+    width: 100%;
+}
+.content-review-item2 {
+    margin-top: -50px;
+}
+.content-review-item{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------ct hoc----------- */
+.contact-web-title-mask .web-title{
+    font-size: 40px;
+}
+.contact-web-title-mask .contact-web-link{
+    font-size: 16px;
+}
+.page-learning .contact-web-title-fill{
+    margin-top: 100px;
+}
+
+
+
+.contact-web-title-fill{
+    margin-top: 100px;
+}
+
+/* ----------tin tuc------- */
+.page-news-left-item-fill{
+    width: 50%;
+}
+.page-news-left-item-fill{
+    padding: 0px 15px 30px 15px;
+    width: 33.333%;
+    float: left;
+    height: 340.5px;
+}
+
+
+
+/* -----lien he---- */
+.form-contact-bottom-fill-in form {
+    padding: 0 30px;
+}
+.page-lien-lac-bottom .page-ll-bottom-border-content3 {
+    font-family: Lato;
+    font-size: 14px;
+    margin-top: 0;
+}

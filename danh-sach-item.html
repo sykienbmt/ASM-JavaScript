@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fb431fcdc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:regular,500,600,700,800" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="/images/book.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/danh-sach-san-pham.css">
+    <script src="js/TaoSanPham.js"></script>
+    <script src="js/hoTro.js"></script>
+    <script src="js/gioHang.js"></script>
+    <script src="js/danhSachItem.js"></script>
+    <title>Danh sách</title>
+</head>
+
+<body>
+    <div id="thanh-cong">
+    </div>
+    <nav>
+        <div class="menu-bar menu-mua-sach mb-trang-chu">
+            <div class="menu-bar-1">
+                <div class="menu-bar-logo">
+                    <a href="/index.html"><img src="images/logo.png " alt=""></a>
+                </div>
+                <div class="menu-bar-menu">
+                    <ul class="menu-bar-lv1">
+                        <li class="menu-bar-lv1-name menu-trang-chu1 ">
+                            <a href="/index.html" class="menu-bar-lv1-item">Trang chủ</a>
+                        </li>
+                        <li class="menu-bar-lv1-name ">
+                            <a href="/gioi-thieu.html" class="menu-bar-lv1-item">Giới thiệu
+                                <i class="fa fa-angle-down  fa_custom"></i>
+                            </a>
+                            <ul class="menu-bar-lv2">
+                                <li class="menu-bar-lv2-name">
+                                    <a href="#" class="menu-bar-lv2-item">Đội ngũ giáo viên</a>
+                                </li>
+                                <li class="menu-bar-lv2-name">
+                                    <a href="#" class="menu-bar-lv2-item"> Lời ngỏ</a>
+                                </li>
+                                <li class="menu-bar-lv2-name">
+                                    <a href="#" class="menu-bar-lv2-item">Môi trường chăm sóc</a>
+                                </li>
+                                <li class="menu-bar-lv2-name">
+                                    <a href="#" class="menu-bar-lv2-item">Tầm nhìn và sứ mệnh</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-bar-lv1-name">
+                            <a href="/chuong-trinh-hoc.html" class="menu-bar-lv1-item">Chương trình học
+                                <i class="fa fa-angle-down fa_custom"></i>
+                            </a>
+                            <ul class="menu-bar-lv2">
+                                <li class="menu-bar-lv2-name">
+                                    <a href="/chuong-trinh-hoc.html" class="menu-bar-lv2-item">Tư vấn giáo dục</a>
+                                </li>
+                                <li class="menu-bar-lv2-name">
+                                    <a href="/chuong-trinh-hoc.html" class="menu-bar-lv2-item">Phương pháp giáo dục</a>
+                                </li>
+                                <li class="menu-bar-lv2-name">
+                                    <a href="/chuong-trinh-hoc.html" class="menu-bar-lv2-item">Chương trình giáo dục</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-bar-lv1-name">
+                            <a href="/tin-tuc.html" class="menu-bar-lv1-item">Tin tức</a>
+                        </li>
+                        <li class="menu-bar-lv1-name">
+                            <a href="/lien-he.html" class="menu-bar-lv1-item">Liên hệ</a>
+                        </li>
+                        <li class="menu-bar-lv1-name">
+                            <a href="danh-sach-item.html" class="menu-bar-lv1-item menu-mua-sach1">Sách Tham Khảo</a>
+                        </li>
+                        <li class="menu-bar-lv1-name">
+                            <a href="admin.html" class="menu-bar-lv1-item"><i class="fas fa-users-cog"></i></a>
+                        </li>
+                        <li class="menu-bar-lv1-name gio-hang-hover" >
+                            <a href="gio-hang.html" class="menu-bar-lv1-item">
+                                <i class="fas fa-cart-arrow-down" id="soLuongItem">
+                                </i>
+                            </a>
+                            <div id="gioHangMini">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1540_new.jpg?v=2&w=1580&h=400">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1522_new.jpg?v=2&w=1580&h=400">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://307a0e78.vws.vegacdn.vn/view/v2/image/img.banner/0/0/0/1517_new.jpg?v=3&w=1580&h=400">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="next" onclick="plusSlides(1)">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+
+    </div>
+
+
+    <section class="danh-sach">
+        <div class="danh-sach-container">
+
+            <div class="sap-xep">
+                <div class="sap-xep-container">
+                    <div class="sap-xep-title">
+                        <h2>SẮP XẾP DANH SÁCH</h2>
+                    </div>
+                    <div class="danh-sach-xep">
+                        <ul>
+                            <li class="tim-kiem-sach">
+                                <input type="text" id="tim-kiem-san-pham" placeholder="Nhập tên sp cần tìm">
+                                <i class="fas fa-search fa-2x" onclick="hienThiGiaoDien(5)"></i>
+                            </li>
+                            <li class="sap-xep-item" onclick="hienThiGiaoDien(1)">
+                                <span>Giá: Cao đến thấp</span>
+                            </li>
+                            <li class="sap-xep-item" onclick="hienThiGiaoDien(2)">
+                                <span>Giá: Thấp đến cao</span>
+                            </li>
+                            <li class="sap-xep-item" onclick="hienThiGiaoDien(3)">
+                                <span>Tên: Từ A-Z</span>
+                            </li>
+                            <li class="sap-xep-item" onclick="hienThiGiaoDien(4)">
+                                <span>Tên: Từ Z-A</span>
+                            </li>
+                            <li class="sap-xep-item sap-xep-item1">
+                                Giá từ
+                                <input type="number" min="0" id="search-from">
+                                Đến
+                                <input type="number" min="0" id="search-to">
+                                <button onclick="hienThiGiaoDien(6)">Tìm</button>
+                            </li>
+                            <li class="sap-xep-item" onclick="hienThiGiaoDien(0)">
+                                <span>Trở lại</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hien-thi-sach">
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="ft">
+        <section class="footer">
+            <div class="footer-fill flex-row-wrap">
+                <div class="ve-chung-toi-fill">
+                    <h3 class="ve-chung-toi-title">Về Chúng Tôi</h3>
+                    <p class="footer-desc1">
+                        Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản
+                        trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản
+                        chỉ gồm nội dung kiểu "Nội dung, nội dung, nội dung" là nó khiến văn bản giống thật hơn, bình
+                        thường hơn
+                    </p>
+                </div>
+                <div class="co-so-chung-toi-fill">
+                    <h3 class="co-so-chung-toi-title">Cơ sở chúng tôi</h3>
+                    <div class="co-so-chung-toi-icon">
+                        <i class="fa fa-map-marker"></i>
+                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="co-so-chung-toi-text">
+                        <p class="location">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                        <a href="#">076 922 0162</a>
+                        <a href="#">Mon@Mona.Media</a>
+                    </div>
+                </div>
+                <div class="cac-lop-hoc-fill">
+                    <h3 class="cac-lop-hoc-title">Các lớp học</h3>
+                    <a href="#">Năng Khiếu Vẽ</a>
+                    <a href="#">Múa Đương Đại</a>
+                    <a href="#">Thể Thao</a>
+                    <a href="#">Múa Ba Lê</a>
+                    <a href="#">Năng Khiếu Hát</a>
+
+                </div>
+                <div class="dang-ki-fill">
+                    <div class="dang-ki">
+                        <h3 class="dang-ki-title">Đăng kí</h3>
+                        <p class="dang-ki-desc">
+                            Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.
+                        </p>
+                        <form action="">
+                            <div class="form-mail">
+                                <input type="Email" placeholder="Email..." class="email-send">
+                                <a href="#">
+                                    <i class="fa fa-paper-plane"></i>
+                                </a>
+                            </div>
+                        </form>
+                        <div class="icon-social">
+                            <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-starr">
+            By: Kiên Nguyễn( Starr)
+            <a href="https://www.youtube.com/channel/UCir08IXYxScPnTybpWVVyrw"> || Teacher: IT Hieu</a>
+        </section>
+    </footer>
+
+    <script>
+        themSanPham();
+        hienThiGiaoDien();
+        var header = document.querySelector('.menu-bar');
+ 
+        function onScroll(e) {
+            window.scrollY >= 200 ? header.classList.add('collapse') :
+            header.classList.remove('collapse');
+        }
+        document.addEventListener('scroll', onScroll);
+    </script> 
+    <script src="js/sliders.js"></script>
+    <script src="js/soLuong.js"></script>
+</body>
+
+</html>
